@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="265.0" prefWidth="404.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.womenshop.ConnexionInterface">
+    <children>
+        <Label layoutX="50.0" layoutY="50.0" text="Email:" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="322.8" />
+        <TextField fx:id="usernameField" layoutX="150.0" layoutY="50.0" prefHeight="26.0" prefWidth="214.0" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="39.6" />
+        <Label layoutX="50.0" layoutY="100.0" text="Password:" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="279.6" />
+        <PasswordField fx:id="passwordField" layoutX="150.0" layoutY="100.0" prefHeight="26.0" prefWidth="214.0" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="39.6" />
+        <Button layoutX="100.0" layoutY="200.0" mnemonicParsing="false" onAction="#onLoginButtonClick" text="Log in" AnchorPane.bottomAnchor="39.4" AnchorPane.leftAnchor="100.0" />
+        <Button layoutX="300.0" layoutY="200.0" mnemonicParsing="false" onAction="#onCreateAccountButtonClick" text="Create Account" AnchorPane.bottomAnchor="39.4" AnchorPane.rightAnchor="100" />
+    </children>
+</AnchorPane>

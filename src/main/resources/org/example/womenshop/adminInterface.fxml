@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.womenshop.UserInterface"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <TabPane layoutX="10.0" layoutY="10.0" prefHeight="300.0" prefWidth="580.0">
+            <tabs>
+                <Tab text="Shoes">
+                    <AnchorPane>
+                        <!-- Add your Shoes view components here -->
+                    </AnchorPane>
+                </Tab>
+                <Tab text="Clothes">
+                    <AnchorPane>
+                        <!-- Add your Clothes view components here -->
+                    </AnchorPane>
+                </Tab>
+                <Tab text="Accessories">
+                    <AnchorPane>
+                        <!-- Add your Accessories view components here -->
+                    </AnchorPane>
+                </Tab>
+            </tabs>
+        </TabPane>
+        <Button layoutX="250.0" layoutY="350.0" mnemonicParsing="false" text="See My Cart" onAction="#onSeeMyCartButtonClick"/>
+    </children>
+</AnchorPane>
